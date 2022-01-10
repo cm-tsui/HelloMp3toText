@@ -1,4 +1,9 @@
-import time
+# pip install SpeechRecognition
+# pip install pipwin
+# pipwin install pyaudio
+# pip install pydub
+# Windows Install FFmpeg, https://www.wikihow.com/Install-FFmpeg-on-Windows
+
 import speech_recognition as sr
 from pydub import AudioSegment
 from pydub.silence import split_on_silence
